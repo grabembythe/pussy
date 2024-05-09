@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grab 'em</title>
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      @font-face {
+        font-family: "Adigiana-Toybox-Regular";
+        src: url("src/Adigiana-Toybox-Regular/AdigianaUI.ttf")
+          format("truetype");
+      }
+
+      body {
+        font-family: "Adigiana-Toybox-Regular", Arial, sans-serif;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(90deg, #0149ab, #b32134);
+        position: relative;
+      }
+      header {
+        background: linear-gradient(90deg, #0149ab, #b32134);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .social {
+        background-color: transparent;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .social a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 80px;
+        margin-right: 5rem;
+        margin-top: 5rem;
+      }
+      .social a:hover {
+        color: lightgrey;
+      }
+
+      #banner img {
+        position: absolute;
+        bottom: -25%;
+        left: 15%;
+        transform: translateX(-50%);
+        width: 50vh;
+        height: auto;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Grab 'em by the Pussy!<br />$GRABEM</h1>
+      <h3 class="link"><a href="https://www.google.com">CA: placeholder</a></h3>
+
+      <br />
+      <br />
+      <div id="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/gQYm1By1l88?autoplay=1&si=Ra9y97FN4YGMp25G"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <iframe
+          src="//coub.com/embed/izphn?muted=false&autostart=true&originalSize=false&startWithHD=false"
+          allowfullscreen
+          frameborder="0"
+          width="360"
+          height="315"
+          allow="autoplay"
+        ></iframe>
+      </div>
+      <div id="banner"><img src="src/6.png" alt="" /></div>
+      <div class="social">
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-telegram"></i></a>
+      </div>
+    </header>
+  </body>
+</html>
